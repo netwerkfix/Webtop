@@ -1,7 +1,7 @@
 version: "2.1"
 services:
   webtop:
-    image: lscr.io/linuxserver/webtop:ubuntu-mate-version-11ed47b0
+    image: lscr.io/linuxserver/webtop:ubuntu-mate
     environment:
       - PUID=1000
       - PGID=1000
