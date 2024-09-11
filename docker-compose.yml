@@ -14,5 +14,5 @@ services:
     ports:
       - 3000:3000
       - 3001:3001
-    shm_size: "1gb" #optional
+    shm_size: "2gb" #VGPU Default 1GB but 2GB better
     restart: always
